@@ -1,7 +1,7 @@
 # tarmeez-academy-API_final_big-project
 tarmeez-academy-API_final_big-project
 
-this is an API learning project ,trying to prictice API method like (GET, POST, PUT, and DELETE) to (login, logout, register, create, update, delete, create a comment, get All Users, get All Posts For Spacific User,... ) , it contains html,css,Bootstrap5 and Js file.
+this is an API learning project ,trying to prictice API method like (GET, POST, PUT, and DELETE) to (login, logout, register, create, update, delete, create a comment, get All Users, get All Posts For Spacific User,... ) , it contains html,css,Bootstrap5 and Js file. the project contains 3 pages (Tarmeez, Home, Profile)
  
 ## Table of contents
 
@@ -17,7 +17,7 @@ this is an API learning project ,trying to prictice API method like (GET, POST, 
 
 
 ## overview
-this is an API learning project ,trying to prictice API method like (GET, POST, PUT, and DELETE) to (login, logout, register, create, update, delete, create a comment, get All Users, get All Posts For Spacific User,... ) , it contains html,css,Bootstrap5 and Js file.
+this is an API learning project ,trying to prictice API method like (GET, POST, PUT, and DELETE) to (login, logout, register, create, update, delete, create a comment, get All Users, get All Posts For Spacific User,... ) , it contains html,css,Bootstrap5 and Js file. the project contains 3 pages (Tarmeez, Home, Profile)
 
 ## Installation
 To get started with this project, follow these steps:
