@@ -54,6 +54,7 @@ Through this project:
 - how to use **pagination**
 - how to use **query params** to send data in URL.
 - how to deal with **postman** 
+- how to deal with **Axios(npm)** 
 - how to get All Posts , get All Users .
 - how to get All Posts For Spacific User after clicked on this post
 - how to collect between html,css and Js file.
