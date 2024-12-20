@@ -50,11 +50,11 @@ Otherwise, all links will open in the same tab.
 
 ## what-i-learned
 Through this project:
-- how to make infinite scrolling
-- how to add loader while getting data from API  **to see it clearly make Network ->Presets -> 3G**
-- how to use pagination
-- how to use query params to send data in URL.
-- how to deal with postman 
+- how to make **infinite scrolling**
+- how to add **loader** while getting data from API  **to see it clearly make Network ->Presets -> 3G**
+- how to use **pagination**
+- how to use **query params** to send data in URL.
+- how to deal with **postman** 
 - how to get All Posts , get All Users .
 - how to get All Posts For Spacific User after clicked on this post
 - how to collect between html,css and Js file.
