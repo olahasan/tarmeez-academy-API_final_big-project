@@ -1,0 +1,233 @@
+body {
+  background-color: #9e9e9e57 !important;
+}
+.Add {
+  position: fixed;
+  z-index: 99999;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 900;
+  border-radius: 15px;
+  background-color: greenyellow;
+}
+
+.hide {
+  display: none;
+}
+
+div#alertContainer {
+  /* position: absolute; */
+  position: fixed;
+  z-index: 10000;
+  right: 15px;
+}
+
+.user-infos {
+  display: flex;
+  margin-right: 10px;
+}
+
+.user-infos img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.author {
+  margin: 20px 20px 20px 5px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.comment {
+  background-color: rgb(247, 246, 246);
+  padding: 20px 20px 20px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.comment .info {
+  display: flex;
+  align-items: center;
+}
+
+.comment .info .image img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.AddComment {
+  display: flex;
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  padding-left: 6px;
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+input[type="text"]::placeholder {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+input[type="text"]:focus::placeholder {
+  opacity: 0;
+}
+
+input[type="submit"] {
+  background-color: #2196f3;
+  border-radius: 0 5px 5px 0;
+}
+
+.user-info-profile {
+  background-color: #f8f9fa;
+  padding: 10px;
+}
+.user-info-profile .pic img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  /* border: 3px solid rgb(192, 190, 190); */
+}
+
+.user-main-info {
+  font-weight: 500;
+  /* font-size: 20px; */
+  /* font-size: 15px; */
+  font-size: 16px;
+}
+.number-info {
+  /* color: #bbbdbe; */
+  /* font-size: 15px; */
+  color: rgb(172, 172, 172);
+  font-weight: 100;
+}
+.number-info span {
+  /* color: #212529;
+  font-size: 30px; */
+  /* font-size: 50px; */
+  font-size: 40px;
+  color: black;
+}
+
+.username-profile-posts {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.user-infos {
+  cursor: pointer;
+  align-items: center;
+}
+
+/* start loader */
+.lds-spinner {
+  /* change color here */
+  color: #1c4c5b;
+}
+.lds-spinner,
+.lds-spinner div,
+.lds-spinner div:after {
+  box-sizing: border-box;
+}
+.lds-spinner {
+  color: currentColor;
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-spinner div {
+  transform-origin: 40px 40px;
+  animation: lds-spinner 1.2s linear infinite;
+}
+.lds-spinner div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 3.2px;
+  left: 36.8px;
+  width: 6.4px;
+  height: 17.6px;
+  border-radius: 20%;
+  background: currentColor;
+}
+.lds-spinner div:nth-child(1) {
+  transform: rotate(0deg);
+  animation-delay: -1.1s;
+}
+.lds-spinner div:nth-child(2) {
+  transform: rotate(30deg);
+  animation-delay: -1s;
+}
+.lds-spinner div:nth-child(3) {
+  transform: rotate(60deg);
+  animation-delay: -0.9s;
+}
+.lds-spinner div:nth-child(4) {
+  transform: rotate(90deg);
+  animation-delay: -0.8s;
+}
+.lds-spinner div:nth-child(5) {
+  transform: rotate(120deg);
+  animation-delay: -0.7s;
+}
+.lds-spinner div:nth-child(6) {
+  transform: rotate(150deg);
+  animation-delay: -0.6s;
+}
+.lds-spinner div:nth-child(7) {
+  transform: rotate(180deg);
+  animation-delay: -0.5s;
+}
+.lds-spinner div:nth-child(8) {
+  transform: rotate(210deg);
+  animation-delay: -0.4s;
+}
+.lds-spinner div:nth-child(9) {
+  transform: rotate(240deg);
+  animation-delay: -0.3s;
+}
+.lds-spinner div:nth-child(10) {
+  transform: rotate(270deg);
+  animation-delay: -0.2s;
+}
+.lds-spinner div:nth-child(11) {
+  transform: rotate(300deg);
+  animation-delay: -0.1s;
+}
+.lds-spinner div:nth-child(12) {
+  transform: rotate(330deg);
+  animation-delay: 0s;
+}
+@keyframes lds-spinner {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/* end loader */
+.theLoader {
+  background: rgba(128, 128, 128, 0.495);
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+}
