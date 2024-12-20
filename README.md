@@ -61,11 +61,11 @@ Through this project:
 
 ## helpful-links
 - **loader** : (https://loading.io/css/)
-- **API** : (https://documenter.getpostman.com/view/4696539/2s83zjqN3F)  **[tarmeez academy](https://www.youtube.com/@tarmeez)**
+- **API** : (https://documenter.getpostman.com/view/4696539/2s83zjqN3F)  **created by [tarmeez academy](https://www.youtube.com/@tarmeez)**
 
 ## Continued Development
 In the future, I plan to:
-- do the same project using JS framework like react . to make it more reusable,avoid doublicate the code  and easy to maintain 
+- do the same project using JS framework like react . to make it more reusable,avoid duplicate the code, and easy to maintain 
 
 ### Author
 
