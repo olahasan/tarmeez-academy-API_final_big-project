@@ -75,4 +75,4 @@ GitHub - @olahasan
 
 ### Acknowledgments
 
-I would like to thank the **[tarmeez academy](https://www.youtube.com/@tarmeez)** for providing this challenge and to the community for their support.
+I would like to thank the **[tarmeez academy](https://www.youtube.com/@tarmeez)** for providing this challenge , creating this API, and to the community for their support.
